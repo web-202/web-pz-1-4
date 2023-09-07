@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+body, html {
+  height: 100%;
+  overflow: auto;
+}
+
+body {
+  background-color:#303030;
+}
+
+.responsive {
+    display: flex;
+    flex-direction: row;
+}
