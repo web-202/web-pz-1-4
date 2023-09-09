@@ -84,31 +84,61 @@
 #sideBar {
   position: fixed;
   top: 0;
-  left: -250px; /* Початкове зміщення за межі видимості */
-  width: 250px;
+  left: -350px; /* Початкове зміщення за межі видимості */
+  width: 350px;
   height: 100%;
-  background-color: #333;
-  color: #fff;
+  color: black;
   transition: left 0.3s ease;
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.l1 {
+  display: grid;
+  grid-template-rows: 200px auto;
+  background-color: white;
+}
+
+.bgPattern {
+  background: linear-gradient(247deg, #397872 2.69%, #819745 101.82%);
+  display: grid;
+  grid-template-rows: 90px 40px;
+  justify-items: center;
+  padding-top: 25px;
+}
+
+.bgPattern h3 {
+  color: white;
+  font-weight: bold;
+
+}
+
+.menuItems {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 25px);
+  padding: 50px 0 0 20px;
+}
+
+.menuItem {
+  display: grid;
+  grid-template-columns: 30px auto;
+  gap: 10px;
+  align-items: center;
+}
+
+.menuItem span {
+  color: black;
+  font-family: Algerian serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
 }
 
 #sideBar.open {
   left: 0; /* Відображає меню, коли клас "open" додано */
 }
 
-#sideBar ul {
-  list-style: none;
-  padding: 0;
-}
-
-#sideBar li {
-  margin: 10px;
-}
-
-#sideBar a {
-  color: #fff;
-  text-decoration: none;
-}
 
 
 
