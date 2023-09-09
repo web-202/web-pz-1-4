@@ -37,6 +37,10 @@
   justify-content: center;
 }
 
+.cardsNone {
+  display: none;
+}
+
 .card {
   width: 360px;
   height: 260px;
@@ -74,4 +78,39 @@
   width: 360px;
   height: 260px;
 }
+
+
+/* Стилі для бокового меню */
+#sideBar {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Початкове зміщення за межі видимості */
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  transition: left 0.3s ease;
+}
+
+#sideBar.open {
+  left: 0; /* Відображає меню, коли клас "open" додано */
+}
+
+#sideBar ul {
+  list-style: none;
+  padding: 0;
+}
+
+#sideBar li {
+  margin: 10px;
+}
+
+#sideBar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
 

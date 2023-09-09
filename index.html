@@ -9,7 +9,7 @@
 <body>
 <div class="wrapper">
   <header class="header">
-    <div class="header_menu">
+    <div class="header_menu" id="openSideBar">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z"
               fill="white"/>
@@ -20,8 +20,15 @@
     </div>
   </header>
   <main class="main">
-    <div class="cards">
-      <div class="card">
+    <div id="sideBar" class="closed">
+      <ul>
+        <li><a href="#">Пункт меню 1</a></li>
+        <li><a href="#">Пункт меню 2</a></li>
+        <li><a href="#">Пункт меню 3</a></li>
+      </ul>
+    </div>
+    <div class="cards" id="mainContent">
+      <div class="card" id="clickableBlock">
         <img src="img/1.png" alt="">
         <div class="image_placeholder">
           <div class="image_placeholder_title">Тур вихідного дня “Гостинність Чорнобаївки”</div>
@@ -129,5 +136,6 @@
     </div>
   </main>
 </div>
+<script src="js/scripts.js"></script>
 </body>
 </html>
