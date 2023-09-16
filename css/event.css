@@ -1,0 +1,98 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+  font-size: 24px;
+  background-color: #1c1b1b;
+}
+
+.header > div > button {
+  border: none;
+  background: none;
+}
+
+.card {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.card .title {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(16, 14, 14, 0.6)
+}
+
+.card > img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.card .buttons > img {
+  width: 1.5rem;
+  height: auto;
+  padding: 0 1rem;
+}
+
+main {
+  font-size: 20px;
+}
+
+.feedbacks {
+  margin-top: 2rem;
+}
+
+.feedback {
+  padding: 1rem 0;
+  display: flex;
+}
+
+.feedback .profile {
+  margin-right: 0.5rem;
+}
+
+.feedback .content {
+  margin-left: 0.5rem;
+  background-color: rgba(162, 151, 151, 0.75);
+  padding: 1rem;
+  border-radius: 0 3rem 3rem 3rem;
+}
+
+.profile > img {
+  width: 3rem;
+}
+
+.additional-info {
+  margin-top: 2rem;
+}
+
+td {
+  padding: 0.8rem;
+}
+
+td > img {
+  width: 1.5rem;
+}
+
+tr {
+  color: #108610;
+}
+
+.order {
+  text-align: center;
+}
+
+.order-button {
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 2px;
+  font-size: 20px;
+  width: 80%;
+  height: 3rem;
+}
