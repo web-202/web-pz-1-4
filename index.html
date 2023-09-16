@@ -7,20 +7,63 @@
 
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/nav-menu.css">
 
   <title>Document</title>
 </head>
 <body>
-<header>
+<header id="header">
   <div class="header">
-    <img class="nav-icon" src="img/buttons/nav-icon.png" alt="nav-icon">
+    <img onclick="openCloseNavMenu()" class="nav-icon" src="img/buttons/nav-icon.png" alt="nav-icon">
     <div>
       Популярні тури
     </div>
   </div>
 </header>
 
-<main>
+<div class="nav-menu" id="nav-menu">
+  <button onclick="openCloseNavMenu()" class="close-button" id="nav-close-button">
+    <img src="img/profile/close.png" alt="close">
+  </button>
+  <div class="panel">
+    <div class="profile">
+      <img src="img/profile/profile.png" alt="profile">
+      Андрій Васильович
+    </div>
+    <table>
+      <tr>
+        <td><img src="img/profile/icons/my-profile.png" alt="my-profile"></td>
+        <td>Мій профіль</td>
+      </tr>
+      <tr>
+        <td><img src="img/profile/icons/purchases.png" alt="purchases"></td>
+        <td>Замовлення</td>
+      </tr>
+      <tr>
+        <td><img src="img/profile/icons/messages.png" alt="messages"></td>
+        <td>Повідомлення</td>
+      </tr>
+      <tr>
+        <td><img src="img/profile/icons/favorite.png" alt="favorite"></td>
+        <td>Улюблене</td>
+      </tr>
+      <tr>
+        <td><img src="img/profile/icons/friends.png" alt="friends"></td>
+        <td>Друзі</td>
+      </tr>
+      <tr>
+        <td><img src="img/profile/icons/notifications.png" alt="notifications"></td>
+        <td>Сповіщення</td>
+      </tr>
+      <tr>
+        <td><img src="img/profile/icons/settings.png" alt="settings"></td>
+        <td>Налаштування</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<main id="main">
   <div class="card">
     <img class="image" src="img/cards/card-1.png" alt="card-image">
 
@@ -30,7 +73,7 @@
         "Гостинність Чорнобаївки"
       </div>
       <div class="buttons">
-        <img src="img/buttons/favourite.png" alt="favourite">
+        <img src="img/buttons/favorite.png" alt="favourite">
         <img src="img/buttons/share.png" alt="share">
       </div>
     </div>
@@ -44,7 +87,7 @@
         Дайвинг-тур "Таємниці Зміїного"
       </div>
       <div class="buttons">
-        <img src="img/buttons/favourite.png" alt="favourite">
+        <img src="img/buttons/favorite.png" alt="favourite">
         <img src="img/buttons/share.png" alt="share">
       </div>
     </div>
@@ -58,7 +101,7 @@
         Сафарі-тур "Гадяцький"
       </div>
       <div class="buttons">
-        <img src="img/buttons/favourite.png" alt="favourite">
+        <img src="img/buttons/favorite.png" alt="favourite">
         <img src="img/buttons/share.png" alt="share">
       </div>
     </div>
@@ -72,7 +115,7 @@
         Майстер-клас "Ромський"
       </div>
       <div class="buttons">
-        <img src="img/buttons/favourite.png" alt="favourite">
+        <img src="img/buttons/favorite.png" alt="favourite">
         <img src="img/buttons/share.png" alt="share">
       </div>
     </div>
@@ -86,12 +129,14 @@
         Квест-тур "Київ за три дні"
       </div>
       <div class="buttons">
-        <img src="img/buttons/favourite.png" alt="favourite">
+        <img src="img/buttons/favorite.png" alt="favourite">
         <img src="img/buttons/share.png" alt="share">
       </div>
     </div>
   </div>
 
 </main>
+
+<script src="js/index.js"></script>
 </body>
 </html>
