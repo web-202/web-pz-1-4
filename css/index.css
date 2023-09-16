@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  color: white;
+  background-color: rgb(48, 48, 48);
+  padding: 1rem 1rem;
+}
+
+.card {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.card .title {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(57, 120, 78, 0.6)
+}
+
+.card .title > div {
+  font-size: 20px;
+  margin: 0.5rem;
+}
+
+.card .title .buttons {
+  min-width: 3.5rem;
+}
+
+.card .title .buttons > img {
+  margin: 0.2rem;
+}
+
+.card .image {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.card .buttons > img {
+  width: 1rem;
+  height: auto;
+}
+
+.card
