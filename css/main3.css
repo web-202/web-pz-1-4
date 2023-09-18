@@ -70,16 +70,16 @@ body {
     position: relative;
 }
 
-img {
-    border-radius: 5px;
-    width: 100%;
-}
 
 .desc-items {
     display: flex;
     padding: 12px 10px 32px 0;
     width: 80px;
     height: 24px;
+}
+
+.main-block__img{
+    margin-right: 12px;
 }
 
 .main-opis {
@@ -233,6 +233,7 @@ img {
     .main-opis {
         margin: 0 auto;
         width: 328px;
+        margin-bottom: 38px;
     }
 
     .main-reviews,
@@ -246,13 +247,15 @@ img {
     }
 
     .main-block {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
         width: 100%;
         margin-right: 0;
     }
 
     .main-comment__block {
-        border-radius: 20px;
+
+        border-radius: 0 20px 20px 20px;
     }
 
     .main-event__date {
