@@ -1,0 +1,110 @@
+/* Main */
+.main{
+  padding-bottom: 5px;
+}
+
+
+/* Header */
+.header__about {
+  margin-left: auto;
+  margin-top: 30px;
+  margin-right: 15px;
+}
+
+.header__back {
+  color: white;
+  margin-top: 25px;
+}
+
+
+/* Tour */
+.tour {
+  margin: 0;
+  padding: 0;
+}
+
+.tour__about {
+  height: 15%;
+  background-color: #202020B2;
+}
+
+.tour__description {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: white;
+
+  margin: 30px 20px;
+}
+
+
+/* Response */
+.response {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.response__item{
+  display: flex;
+
+  margin-top: 30px;
+}
+
+.response__title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 18px;
+
+  margin-bottom: 50px;
+}
+
+.response__text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: white;
+
+  background-color: #757575;
+
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  border-radius: 0px 30px 30px 30px;
+}
+
+
+/* Event */
+.event {
+  margin-left: 20px;
+  margin-top: 50px;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #6FB285;
+}
+
+.event__title {
+  color: white;
+
+  margin-bottom: 20px;
+}
+
+.event__date {
+  margin-bottom: 20px;
+}
+
+.event__reserve__btn {
+  margin-top: 50px;
+  margin-right: 20px;
+  padding: 50px 20px;
+
+  font-size: 50px;
+  line-height: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+
+  background-color: #39784E;
+}
+
