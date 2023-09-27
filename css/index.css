@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template: minmax(50px, auto) 1fr / 1fr;
+  min-height: 100vh;
+  background-color: #303030;
+}
+
+.header {
+  background-color: #212121;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.header__home {
+  display: flex;
+}
+
+.header__title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  margin: 30px 0 30px 0;
+}
+
+.blog {
+  width: 344px;
+  height: 260px;
+  color: white;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.blog img {
+  width: 100%;
+  height: 100%;
+}
+
+.blog__el {
+  height: min-content;
+  background-color: rgba(57, 120, 78, 0.60);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 6px 15px 6px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.blog__el__title {
+  width: 60%;
+  font-size: 16px;
+}
+
+.blog__el__fun {
+  display: flex;
+}
+
+.sideMenu {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: left 0.3s ease;
+  display: flex;
+
+}
+
+.sideMenu__bg {
+  background-color: white;
+  width: 304px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sideMenu__bg__profile {
+  height: 30%;
+  background-color: #6FB285;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.sideMenu__bg__navigation {
+  height: 30%;
+  padding-left: 40px;
+}
+
+.sideMenu__bg__navigation div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 20px 0 20px 0;
+}
+
+.close {
+  padding: 20px;
+  height: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.sideMenu-close {
+  left: -350px;
+  display: none;
+}
+
+
+

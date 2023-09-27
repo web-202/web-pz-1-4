@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+  <title>PZ_1_4_Vozniy</title>
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="header__home" onclick="doSideMenu()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z"
+                fill="white"/>
+        </svg>
+      </div>
+      <div class="header__title">
+        Популярні тури
+      </div>
+    </div>
+    <div class="sideMenu-close" id="sideMenu">
+      <div class="sideMenu__bg">
+        <div class="sideMenu__bg__profile">
+          <img src="./img/Avatar.svg" alt="">
+          <span>Артем Сергійович</span>
+        </div>
+        <div class="sideMenu__bg__navigation">
+          <div>
+            <img src="./img/trash.svg" alt="">
+            <span>Мій профіль</span>
+          </div>
+          <div>
+            <img src="./img/purchases.svg" alt="">
+            <span>Замовлення</span>
+          </div>
+          <div>
+            <img src="./img/forums.svg" alt="">
+            <span>Повідомлення</span>
+          </div>
+          <div>
+            <img src="./img/favorite.svg" alt="">
+            <span>Улюблене</span>
+          </div>
+          <div>
+            <img src="./img/social.svg" alt="">
+            <span>Друзі</span>
+          </div>
+          <div>
+            <img src="./img/updates.svg" alt="">
+            <span>Сповіщення</span>
+          </div>
+          <div>
+            <img src="./img/spam.svg" alt="">
+            <span>Налаштування </span>
+          </div>
+        </div>
+      </div>
+      <div class="close" onclick="doSideMenu()">
+        X
+      </div>
+    </div>
+    <div class="main" id="main">
+      <div class="blog" id="blog" onclick="toBlog()">
+        <img src="./img/blog-1.jpg" alt="blog-1">
+        <div class="blog__el">
+          <div class="blog__el__title">
+            Тур вихідного дня “Гостинність Чорнобаївки”
+          </div>
+          <div class="blog__el__fun">
+            <img src="./img/Buttons.svg" alt="buttons">
+          </div>
+        </div>
+      </div>
+      <div class="blog">
+        <img src="./img/blog-2.jpg" alt="blog-1">
+        <div class="blog__el">
+          <div class="blog__el__title">
+            Дайвінг-тур "Таємниці Зміїного"
+          </div>
+          <div class="blog__el__fun">
+            <img src="./img/Buttons.svg" alt="buttons">
+          </div>
+        </div>
+      </div>
+      <div class="blog">
+        <img src="./img/blog-3.jpg" alt="blog-1">
+        <div class="blog__el">
+          <div class="blog__el__title">
+            Сафарі-тур “Гадяцький”
+          </div>
+          <div class="blog__el__fun">
+            <img src="./img/Buttons.svg" alt="buttons">
+          </div>
+        </div>
+      </div>
+      <div class="blog">
+        <img src="./img/blog-4.jpg" alt="blog-1">
+        <div class="blog__el">
+          <div class="blog__el__title">
+            Сафарі-тур “Гадяцький”
+          </div>
+          <div class="blog__el__fun">
+            <img src="./img/Buttons.svg" alt="buttons">
+          </div>
+        </div>
+      </div>
+      <div class="blog">
+        <img src="./img/blog-5.jpg" alt="blog-1">
+        <div class="blog__el">
+          <div class="blog__el__title">
+            Квест-тур “Київ за три дні”
+          </div>
+          <div class="blog__el__fun">
+            <img src="./img/Buttons.svg" alt="buttons">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+</html>
