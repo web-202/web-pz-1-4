@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .body1{
+    background-color: #4d4b4b;
+  }
+
+.header{
+    width: 360;
+    height: 100px;
+    background-color: rgb(33, 34, 34);
+}
+.container1{
+    display: flex;
+    padding-top: 45px;
+}
+
+.text1{
+  color: aliceblue;
+}
+.hr{
+  background-color: transparent;
+  border: 0px solid #000;
+  margin-right: 20px;
+}
+.img1{
+  max-width: 50px;
+  max-height: 50px;
+}
+
+
+.inside{
+  width: min-content;
+  margin: auto;
+  padding: 4px;
+}
+
+.home{
+  padding-top: 40px;
+  padding-left: 8px;
+}
+
+.home1{
+  padding-top: 10px;
+  padding-left: 8px;
+}
+
+.img2{
+  width: 344px;
+  height: 260px;
+}
+
+.photo{
+  position: relative;
+  display: inline-block;
+}
+.text_block{
+  position: absolute;
+  width: 343px;
+  height: 68px;
+  top: 84.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:  rgba(57, 120, 78, 0.60);
+  color: aliceblue;
+  padding: 12px;
+}
+.text2{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: 24px;
+}
+
+.btn_like{
+  position: absolute;
+  width: 68px;
+  height: 24px;
+  top: 15%;
+  left: 75%;
+}
+
+
