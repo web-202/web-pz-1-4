@@ -1,0 +1,237 @@
+body{
+  background: rgb(48, 48, 48);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+  font-size: 24px;
+  background-color: #1c1b1b;
+}
+
+.nav-item {
+  border: none;
+  background: none;
+}
+
+.card {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.card .title {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(16, 14, 14, 0.6)
+}
+
+.card > img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.card .buttons > img {
+  width: 1.5rem;
+  height: auto;
+  padding: 0 1rem;
+}
+
+main {
+  font-size: 20px;
+}
+
+.feedbacks {
+  margin-top: 2rem;
+}
+
+.feedback {
+  padding: 1rem 0;
+  display: flex;
+}
+
+.feedback .profile {
+  margin-right: 0.5rem;
+}
+
+.feedback .content {
+  margin-left: 0.5rem;
+  background-color: rgba(162, 151, 151, 0.75);
+  padding: 1rem;
+  border-radius: 0 3rem 3rem 3rem;
+}
+
+.profile > img {
+  width: 3rem;
+}
+
+.additional-info {
+  margin-top: 2rem;
+}
+
+td {
+  padding: 0.8rem;
+}
+
+td > img {
+  width: 1.5rem;
+}
+
+tr {
+  color: #108610;
+}
+
+.order {
+  text-align: center;
+}
+
+.order-button {
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 2px;
+  font-size: 20px;
+  width: 80%;
+  height: 3rem;
+}
+
+header {
+  color: white;
+  background-color: #212121;
+}
+
+.header {
+  padding: 10px;
+  display: flex;
+}
+
+.header > div {
+  margin: 7px 21px;
+}
+
+.nav-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  color: white;
+  background-color: rgb(48, 48, 48);
+  padding: 1rem 1rem;
+  width: 640px;
+  margin: 0 auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.card .title {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(57, 120, 78, 0.6)
+}
+
+.card > img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.card .buttons > img {
+  width: 1rem;
+  height: auto;
+}
+
+
+.title > div {
+  font-size: 20px;
+  margin: 0.5rem;
+}
+
+.buttons {
+  min-width: 3.5rem;
+}
+
+.buttons > img {
+  margin: 0.2rem;
+}
+
+.nav-menu {
+  height: 100%;
+  background-color: rgb(49, 49, 49);
+}
+
+.panel {
+  width: 30%;
+  height: 100%;
+  background-color: white;
+}
+
+.profile {
+  color: white;
+  font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  background-image: url("../img/profile/profile-background.png");
+  background-color: #1e9a1e;
+}
+
+.profile > img {
+  width: 5rem;
+}
+
+.item {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item > img {
+  width: 1.5rem;
+}
+
+td {
+  padding: 0.8rem;
+}
+
+td > img {
+  width: 1.5rem;
+}
+
+.close-button {
+  border: none;
+  background: none;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+}
+
+.close-button > img {
+  width: 1rem;
+  height: 1rem;
+}
