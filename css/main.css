@@ -45,23 +45,23 @@ body {
 
 
 .news_1 {
-  background-image: url("/web-pz-1-4/img/img_news_1.png");
+  background-image: url("../img/img_news_1.png");
 }
 
 .news_2 {
-  background-image: url("/web-pz-1-4/img/img_news_2.png");
+  background-image: url("../img/img_news_2.png");
 }
 
 .news_3 {
-  background-image: url("/web-pz-1-4/img/img_news_3.png");
+  background-image: url("../img/img_news_3.png");
 }
 
 .news_4 {
-  background-image: url("/web-pz-1-4/img/img_news_4.png");
+  background-image: url("../img/img_news_4.png");
 }
 
 .news_5 {
-  background-image: url("/web-pz-1-4/img/img_news_5.png");
+  background-image: url("../img/img_news_5.png");
   margin-bottom: 30px;
 }
 
@@ -125,7 +125,7 @@ margin-right: auto;
 }
 
 .user_info {
-  background-image: url(/web-pz-1-4/img/pixel_background.png);
+  background-image: url(../img/pixel_background.png);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -178,7 +178,7 @@ margin-right: auto;
 
 .back_btn {
   background-color: #212121;
-  background-image: url(/web-pz-1-4/img/back\ копія.svg);
+  background-image: url(../img/back_copiya.svg);
   background-repeat: no-repeat;
   border: none;
   cursor: pointer;
@@ -202,7 +202,7 @@ margin-right: auto;
 }
 
 .preview_img {
-  background-image: url(/web-pz-1-4/img/img_news_1.png);
+  background-image: url(../img/img_news_1.png);
   background-size: cover;
   height: 270px;
   display: flex;
