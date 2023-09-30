@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    width: 360px;
+}
+
+header {
+    display: flex;
+    width: 360px;
+    height: 80px;
+    background-color: #212121;
+    color: white;
+    margin: 0;
+    align-items: center;
+}
+
+.prs-burgerMenu {
+    position: absolute;
+    z-index: 3;
+}
+
+
+.prs-headerText {
+    width: 145px;
+    height: 24px;
+    margin-top: 40px;
+    margin-left: 72.02px
+}
+
+.prs-tours {
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.prs-tour {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 1;
+    width: 344px;
+
+    background-color: rgba(57, 120, 78, 0.6);
+    color: white;
+    margin-left: 8PX;
+}
+
+#first {
+    margin-top: 13.2%;
+}
+
+#second {
+    margin-top: 31.6%;
+}
+
+#third {
+    margin-top: 50.9%;
+}
+
+#fourth {
+    margin-top: 69.1%;
+}
+
+#fifth {
+    margin-top: 87.3%;
+}
+
+
+.prs-tour p {
+    font-family: Arial, Helvetica, sans-serif;
+    flex-shrink: 0;
+    margin-left: 8px;
+    width: 247px;
+}
+
+.prs-button {
+    flex-shrink: 1;
+    filter: invert(99%) sepia(96%) saturate(16%) hue-rotate(35deg) brightness(105%) contrast(100%);
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 10px;
+}
+
+.prs-tourImg {
+    position: relative;
+    width: 344px;
+    height: 260px;
+    margin: 8px;
+    z-index: 0;
+}

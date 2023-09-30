@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    width: 360px;
+    height: 80px;
+}
+
+header {
+    display: flex;
+    width: 360px;
+    height: 80px;
+    background-color: #212121;
+    color: white;
+    margin: 0;
+    align-items: center;
+}
+
+.prs-backArrImg {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+
+.prs-treeDotsImg {
+    display: flex;
+    width: 25px;
+    height: 25x;
+    margin-left: 8px;
+}
+
+
+.prs-headerText {
+    width: 236px;
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 45px
+}
+
+.prs-tours {
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
+}
+
+.prs-tourStartImg {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 1;
+    width: 360px;
+    height: 48px;
+    background-color: rgba(32, 32, 32, 0.7);
+    color: white;
+    margin-top: 242px;
+    margin-left: 0;
+}
+
+
+.prs-tourStartImg p {
+    font-family: Arial, Helvetica, sans-serif;
+    flex-shrink: 0;
+    margin-left: 8px;
+    width: 247px;
+}
+
+.prs-button {
+    flex-shrink: 1;
+    filter: invert(99%) sepia(96%) saturate(16%) hue-rotate(35deg) brightness(105%) contrast(100%);
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 10px;
+}
+
+.prs-tourImg {
+    position: relative;
+    width: 360px;
+    height: 290px;
+    margin: 0px;
+    z-index: 0;
+}
+
+.prs-tourText {
+    color: white;
+    width: 328px;
+    height: 194px;
+    margin-left: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.prs-tourReviews {
+    width: 360px;
+    height: 298px;
+    background-color: #ffffff00;
+}
+
+.prs-tourNextEvent {
+    width: 360px;
+    height: 136px;
+
+}
+button{
+    background-color: rgba(57, 120, 78, 1);
+    width: 320px;
+    height: 42px;
+    margin-left: 20px;
+}
+button p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.0357em;
+    text-align: center;
+    color: white;
+}
