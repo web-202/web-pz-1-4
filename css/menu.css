@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0px 0px 0px 500px;
     width: 426px;
+    border: 2px solid black;
 }
 
 .close {
@@ -29,7 +30,7 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    background-image: url(../public/images/Pattern.png);
+    background-image: url(../images/Pattern.png);
 }
 
 .avatar {
@@ -107,7 +108,7 @@ body {
         position: relative;
         width: 100%;
         height: 100%;
-        background-image: url(../public/images/Pattern.png);
+        background-image: url(../images/Pattern.png);
     }
 
     .avatar {

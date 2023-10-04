@@ -56,7 +56,7 @@ body {
 .image-6 {
     width: 425px;
     height: 325px;
-    background-image: url(../public//images//image-6.png);
+    background-image: url(../images/image-6.png);
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
@@ -69,7 +69,7 @@ body {
     width: 425px;
     height: 57px;
     flex-shrink: 0;
-    background-image: url(../public/images/image-placeholder1.png);
+    background-image: url(../images/image-placeholder1.png);
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -161,7 +161,7 @@ body {
 
     body {
         padding: 0;
-        margin: 0;
+        margin: 0 ;
         width: 426px;
     }
 
@@ -209,7 +209,7 @@ body {
     .image-6 {
         width: 425px;
         height: 325px;
-        background-image: url(../public//images//image-6.png);
+        background-image: url(.../images/image-6.png);
         background-repeat: no-repeat;
         background-size: 100%;
         position: relative;
@@ -222,7 +222,7 @@ body {
         width: 425px;
         height: 57px;
         flex-shrink: 0;
-        background-image: url(../public/images/image-placeholder1.png);
+        background-image: url(../images/image-placeholder1.png);
         background-repeat: no-repeat;
         background-size: 100%;
 
