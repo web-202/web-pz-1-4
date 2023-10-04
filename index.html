@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+    <title>PZ_1_4</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="menuToggle">
+            <img id="menuToggle" class="menu-toggle" src="./img/menu.png" alt=""/>
+        </div>
+        <div class="menuWrapper">
+            <div class="menuHeader">
+                <img src="./img/img_profile.png" alt=""/>
+                <p>Котик Рижий</p>
+            </div>
+            <div class="menuBody">
+                <ul class="menu">
+                    <li><img src="./img/profile.png" alt=""/><a href="#">Мій профіль</a></li>
+                    <li><img src="./img/backet.png" alt=""/><a href="#">Замовлення</a></li>
+                    <li><img src="./img/messages.png" alt=""/><a href="#">Повідомлення</a></li>
+                    <li><img src="./img/love.png" alt=""/><a href="#">Улюблене</a></li>
+                    <li><img src="./img/friends.png" alt=""/><a href="#">Друзі</a></li>
+                    <li><img src="./img/message.png" alt=""/><a href="#">Сповіщення</a></li>
+                    <li><img src="./img/meow.png" alt=""/><a href="#">Налаштування</a></li>
+                </ul>
+            </div>
+            <div class="menuClose">
+                <img id="menuClose" src="./img/close.png" alt=""/>
+            </div>
+        </div>
+        <p class="title_header">Популярні тури</p>
+    </header>
+    <main class="main">
+        <div class="container">
+            <a href="./information.html"><img src="./img/img_event.png" alt=""/> </a>
+            <div class="description">
+                <p>Тур вихідного дня “Гостинність Чорнобаївки”</p>
+                <img src="./img/love_share.png" alt=""/>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./img/img2_event.png" alt=""/>
+            <div class="description">
+                <p>Дайвінг-тур "Таємниці Зміїного"</p>
+                <img src="./img/love_share.png" alt=""/>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./img/img3_event.png" alt=""/>
+            <div class="description">
+                <p>Сафарі-тур “Гадяцький”</p>
+                <img src="./img/love_share.png" alt=""/>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./img/img4_event.png" alt=""/>
+            <div class="description">
+                <p>Майстер-клас “Ромський”</p>
+                <img src="./img/love_share.png" alt=""/>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./img/img5_event.png" alt=""/>
+            <div class="description">
+                <p>Квест-тур “Київ за три дні”</p>
+                <img src="./img/love_share.png" alt=""/>
+            </div>
+        </div>
+
+    </main>
+</div>
+</body>
+<script>
+    function toggleMenu(id) {
+        const main = document.querySelector("main")
+        const menuToggle = document.getElementById(id);
+        const menu = document.querySelector(".menuWrapper");
+
+        if (menuToggle) {
+            if (menuToggle.id === "menuToggle")
+                menuToggle.addEventListener("click", () => {
+                    menu.classList.toggle("menuBody");
+                    main.style.display = "none"
+                });
+            if (menuToggle.id === "menuClose") {
+                menuToggle.addEventListener("click", () => {
+                    menu.classList.toggle("menuBody");
+                    main.style.display = "block"
+                });
+            }
+
+        }
+    }
+
+    toggleMenu("menuToggle");
+    toggleMenu("menuClose");
+</script>
+
+</html>
