@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+  }
+  
+  .container {
+   
+    width: 50%;
+   
+   
+
+  }
+  .shao-menu {
+    width: 50%;
+    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+    background-color: #0e2431;
+    margin: 0 auto; 
+  }
+  .nav-container {
+    display: block;
+    position: relative;
+    height: 60px;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+  }
+  .logo {
+    
+    top: 5px;
+    right: 10px;
+    font-size: 1rem;
+    color: aliceblue;
+    display: flex;
+    width: 100%;
+    margin: 0px 30px;
+  }
+  .logo a img{
+   margin-left: 50px;
+   margin-top: 10px;
+  }
+  .logo .photo-more {
+   margin-left: auto;
+   }
+  .logo h4{
+    font-size: 1.4em;
+    margin-left: 25px;
+  }
+  .comments{
+    width: 100%;
+  }
+  .comments h4{
+    font-size: 1em;
+    color: aliceblue;
+    padding-top: 15px;
+  }
+  
+
+  .photo-slides .comments .oval img{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    margin:0px 10px;
+    
+   }
+   .photo-slides .comments a{
+    color: rgb(17, 209, 145);
+    text-decoration: none;
+    display: block;
+    margin: 15px 10px;
+   }
+   .photo-slides .comments .button{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(17, 209, 145);
+    border-color:   rgb(17, 209, 145);
+    width: 280px;
+    height: 45px;
+    margin: 25px 40px;
+   }
+   .page{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #0e2431;
+}
+.page p{
+    color: aliceblue;
+}
+.page .photo-slides{
+   width: 50%;
+   margin: 0 auto;
+}
+.page .photo-slides img{
+    width: 100%;
+    margin-top: 15px;
+}
+.page .photo-slides .abouts{
+   margin-top: -56px;
+   background-color:rgba(95, 158, 160, 0.358);
+   width: 25%;
+   position: absolute;
+   height: 50px;
+}
+.page .photo-slides .abouts h3{
+    color: aliceblue;
+    font-size: 15px;
+   align-items: center;
+}
+.page .photo-slides .abouts .sh-button{
+    flex-shrink: 1;
+    width: 20px;
+    height: 20px;
+    margin-left: 270px;
+    
+}
+.page .photo-slides .abouts .sha-button{
+    flex-shrink: 1;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+  

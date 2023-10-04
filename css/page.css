@@ -1,0 +1,36 @@
+.page{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #0e2431;
+}
+.page .photo-slide{
+   width: 50%;
+   margin: 0 auto;
+}
+.page .photo-slide img{
+    width: 100%;
+}
+.page .photo-slide .about{
+   margin-top: -54px;
+   background-color:rgba(95, 158, 160, 0.358);
+   width: 25%;
+   position: absolute;
+}
+.page .photo-slide .about h3{
+    color: aliceblue;
+    font-size: 15px;
+   align-items: center;
+}
+.page .photo-slide .about .sh-button{
+    flex-shrink: 1;
+    width: 20px;
+    height: 20px;
+    margin-left: 270px;
+    
+}
+.page .photo-slide .about .sha-button{
+    flex-shrink: 1;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
