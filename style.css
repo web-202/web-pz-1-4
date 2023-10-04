@@ -1,0 +1,78 @@
+.menu {
+    display: none;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Стили для кнопки открытия меню */
+.open-menu-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: auto;
+}
+.header{
+    width: 100%;
+    position: relative;
+}
+.menu_header{
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+    background: #000;
+    display: flex;
+}
+.menu_text{
+    color: whitesmoke;
+    margin-right: auto;
+}
+.section{
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+}
+.cart{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.cart img{
+    width: 100%;
+
+}
+.placeholder{
+    position: absolute;
+    margin-top: -65px;
+    width: 100%;
+    background: #39784E99;
+    font-size: 16px;
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+}
+.section-btn{
+    width: 50%;
+    margin: 0 auto;
+    background: #000;
+    margin-top: 40px;
+    justify-content: center;
+}
+.bar{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+    list-style: none;
+}
+.bar img{
+    width: 40px;
+    margin: 0px 15px;
+    
+}
