@@ -1,0 +1,9 @@
+/*Basic style*/
+@import "reset.css";
+@import "./common.blocks/page/page.css";
+
+/*Header style*/
+@import "./common.blocks/page/page-header/header.css";
+
+/*Main body style*/
+@import "./common.blocks/page/page-main/main.css";

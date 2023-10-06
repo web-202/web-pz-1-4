@@ -1,0 +1,98 @@
+/*Page style*/
+.page-header {
+	background-color: rgba(33, 33, 33, 1);
+	min-height: 80px;
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+/*Header style*/
+.header__title-page {
+	flex: 1;
+	color: rgba(255, 255, 255, 1);
+	font-size: 1.5rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.header__btn{
+	cursor: pointer;
+}
+
+/*(start)Navigation style*/
+
+.menu-container {
+	z-index: 1;
+	display: grid;
+	position: fixed;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	grid-template-areas:
+		"account close"
+		"nav close";
+	grid-template-columns: 1fr 56px;
+	grid-template-rows: 200px 1fr;
+	transition: left 0.3s ease;
+}
+
+.menu-container.menu-container_open {
+	left: 0;
+}
+
+.menu-container__account {
+	background-image: url("../../../../img/header/account-wallpaper.png"),
+	linear-gradient(247deg, #397872 2.69%, #819745 101.82%),
+	url("../../../../img/header/account-background.svg");
+	grid-area: account;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 18px;
+}
+
+.menu-container__account-img {
+	height: 80px;
+	width: 80px;
+}
+
+.menu-container__account-name {
+	color: rgba(255, 255, 255, 1);
+	font-size: 1.2rem;
+}
+
+.menu-container__navigation {
+	padding: 36px 0 0 20px;
+	background-color: rgba(250, 250, 250, 1);
+	grid-area: nav;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.menu-container__nav-link {
+	display: flex;
+	align-items: center;
+	gap: 28px;
+}
+
+.menu-container__link-text {
+	font-weight: bold;
+}
+
+.menu-container__close {
+	background-color: rgba(48, 48, 48, 1);
+	grid-area: close;
+}
+
+.menu-container__close-icon {
+	margin: 30px 16px 0 16px;
+	cursor: pointer;
+}
+
+/*(end)Navigation style*/
