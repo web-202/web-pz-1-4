@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  background: #303030;
+
+  color: white;
+}
+
+.header {
+  display: flex;
+
+  font-size: 3.5vh;
+  background: #212121;
+
+  align-items: center;
+}
+
+.detail {
+  justify-content: space-between;
+}
+
+.icon {
+  height: 7vh;
+}
+
+.main {
+  padding: 1vh 2vw;
+  min-height: 100vh;
+}
+
+.item {
+  margin-top: 20px;
+  position: relative;
+}
+
+.item-img {
+  width: 100%;
+}
+
+.title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 5vh;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+
+  background: rgba(35, 157, 58, 0.8);
+}
+
+.dark {
+  background: rgba(42, 41, 41, 0.8);
+}
+
+.title > div {
+  margin: 2px 8px;
+}
+
+.likes {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  border: 2px white solid;
+}
+
+#menu {
+  max-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: black;
+  width: 80%;
+  display: none;
+
+}
+
+.profile {
+  display: flex;
+
+  height: 25vh;
+
+  justify-content: space-around;
+  background-image: url("../img/pattern.png");
+  background-color: rgba(35, 157, 58, 0.8);
+}
+
+.profile > div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 24px;
+  justify-content: space-between;
+}
+
+.list {
+  height: 75vh;
+
+  background: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+
+  align-items: center;
+}
+
+li > div {
+  font-size: 18px;
+  margin: 0 40px 0 20px;
+}
+
+.menu-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.description {
+  margin-top: 40px;
+  padding: 5px;
+}
+
+.comments {
+  margin-top: 40px;
+}
+
+.comment {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment .content {
+  background-color: rgb(128, 128, 128);
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 0 20px 20px 20px;
+}
+
+.rent-div {
+  margin-top: 20px;
+}
+
+.rent {
+  margin-left: 5%;
+  width: 90%;
+  padding: 5px;
+  font-size: 28px;
+  color: white;
+  background-color: rgb(0, 128, 0);
+}
+
+.next {
+  margin-top: 40px;
+}
