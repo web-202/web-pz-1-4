@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f2f2f2ed;
+}
+
+
+.head {
+    display: flex;
+    background: #1f1f1f;
+    padding-bottom: 19px;
+}
+
+.head-content {
+    padding: 40px 0 16px 0;
+}
+
+.menu {
+    width: 24px;
+    height: 24px;
+    padding: 0 45.02px 0 16px;
+}
+
+
+.text-title {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.head-choose {
+    position: absolute;
+    margin: 40px 0 16px 1350px;
+}
+
+
+
+
+.main-container {
+    text-align: center;
+    background: rgba(48, 48, 48, 1);
+    padding: 0 0 0 0;
+}
+
+.main-elements {
+    display: inline-block;
+}
+
+.description {
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(29, 29, 29, 0.7);
+    width: 100%;
+    height: 48px;
+    padding-bottom: 24px;
+}
+
+
+.image-container {
+    margin-bottom: 18px;
+    position: relative;
+}
+
+
+.desc-items {
+    display: flex;
+    padding: 12px 10px 32px 0;
+    width: 80px;
+    height: 24px;
+}
+
+.main-block__img{
+    margin-right: 12px;
+}
+
+.main-opis {
+    width: 358px;
+    height: 194px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 16px 0 16px;
+    margin-bottom: 38px;
+}
+
+.main-reviews {
+    width: 320px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding: 0 20px 0 20px;
+    margin-bottom: 40px;
+}
+
+.main-title {
+    margin-bottom: 19px;
+}
+
+.main-block {
+    display: flex;
+    flex-direction: row;
+    width: 352px;
+}
+
+.main-comment__block {
+    background-color: #757575;
+    border-radius: 0 20px 20px 20px;
+    margin-bottom: 19px;
+}
+
+.main-comment {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 12px 14px 4px 12px;
+}
+
+
+.main-event {
+    margin-bottom: 34px;
+}
+
+.main-event__date {
+    display: flex;
+    flex-direction: row;
+    margin-left: 41px;
+    align-items: center;
+}
+
+.main-event__img {
+    width: 35px;
+    height: 35px;
+    padding-right: 9px;
+}
+
+.main-event__title {
+    width: 200px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 17px;
+}
+
+.main-event__date-title {
+    color: #6FB285;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.btn {
+    width: 320px;
+    height: 42px;
+    background: #397d4f;
+    padding: 0 20px 0 20px;
+    border: 0.5px solid black;
+    box-shadow: 1px 2px 5px black;
+
+    margin-bottom: 30px;
+}
+
+.btn:hover {
+    background: #50a16b;
+}
+
+.btn-title {
+    width: 170.874px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding: 13px 75.34px 12px 89.79px;
+}
+
+.foot {
+    background: #000000;
+    padding: 16px 0;
+    text-align: center;
+    height: 48px;
+}
+
+.elements {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media (max-width: 768px) {
+
+    .head-content {
+        margin: 0 auto;
+    }
+
+    .head-choose {
+        margin: 43px 700px;
+    }
+
+    .image-container img {
+        width: 100%;
+    }
+
+    .main-container {
+        text-align: left;
+        background: rgba(48, 48, 48, 1);
+        padding: 0 16px;
+    }
+
+    .description {
+        padding-top: 5px;
+        height: 60px;
+    }
+
+    .desc-items{
+    margin-right: 15px;
+    }
+
+    .main-opis {
+        margin: 0 auto;
+        width: 328px;
+        margin-bottom: 38px;
+    }
+
+    .main-reviews,
+    .main-event {
+        width: auto;
+        padding: 0 16px;
+    }
+
+    .main-title {
+        margin-bottom: 12px;
+    }
+
+    .main-block {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .main-comment__block {
+
+        border-radius: 0 20px 20px 20px;
+    }
+
+    .main-event__date {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .main-event__img {
+        width: 24px;
+        height: 24px;
+        padding-right: 8px;
+    }
+
+    .main-event__title {
+        width: auto;
+        margin-bottom: 12px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
