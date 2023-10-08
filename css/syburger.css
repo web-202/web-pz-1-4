@@ -90,7 +90,7 @@
     width: 300px;
 }
 
-.menuLi {
+.menu-li {
     display: flex;
     align-items: center;
     font-weight: bolder;
@@ -101,11 +101,11 @@
     color: black;
 }
 
-.menuLi p{
+.menu-li p{
     margin-left: 60px;
 }
 
-.burgerMenu {
+.viti burgerMenu {
     width: 24px;
     height: 24px;
     margin-right: 28px;
