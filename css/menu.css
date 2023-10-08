@@ -1,0 +1,155 @@
+body {
+    padding: 0;
+    margin: 0px 0px 0px 500px;
+    width: 426px;
+    border: 2px solid black;
+}
+
+.close {
+    background-color: rgba(48, 48, 48, 1);
+    margin-left: auto;
+    width: 60px;
+    height: 100vh;
+}
+
+.brawer {
+    
+    width: 455px;
+    margin-bottom: 30px;
+}
+
+.pattern {
+    background: rgb(80, 204, 127);
+    background: linear-gradient(90deg, rgba(80, 204, 127, 1) 0%, rgb(1, 104, 136) 100%);
+    height: 200px;
+    width: 100%;
+
+}
+
+.child {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/Pattern.png);
+}
+
+.avatar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.avatar-name {
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    width: 300px;
+}
+
+.switcher {
+    width: 100%;
+}
+
+.vector {
+    height: 20px;
+    width: 20px;
+    margin-top: 13px;
+    margin-right: 20px;
+}
+
+.vector-text {
+    color: rgba(0, 0, 0, 0.87);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+@media (max-width: 426px) {
+
+    body {
+        padding: 0;
+        margin: 0;
+        width: 426px;
+    }
+
+    .close {
+        background-color: rgba(48, 48, 48, 1);
+        margin-left: auto;
+        width: 60px;
+        height: 100vh;
+    }
+
+    .brawer {
+        
+        width: 455px;
+        margin-bottom: 30px;
+    }
+
+    .pattern {
+        background: rgb(80, 204, 127);
+        background: linear-gradient(90deg, rgba(80, 204, 127, 1) 0%, rgb(1, 104, 136) 100%);
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .child {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/Pattern.png);
+    }
+
+    .avatar {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .avatar-name {
+        position: absolute;
+        top: 69%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+        width: 300px;
+    }
+
+    .switcher {
+        width: 100%;
+    }
+
+    .vector {
+        height: 20px;
+        width: 20px;
+        margin-top: 13px;
+        margin-right: 20px;
+    }
+
+    .vector-text {
+        color: rgba(0, 0, 0, 0.87);
+        font-family:'Times New Roman', Times, serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+    }
+}
