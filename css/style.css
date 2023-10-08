@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f2f2f2ed;
+}
+
+
+.head {
+    background: #1f1f1f;
+    padding-bottom: 18px;
+}
+
+.head-content {
+    padding: 40px 0 16px 0;
+}
+
+.menu {
+    width: 24px;
+    height: 24px;
+    padding: 0 45.02px 0 16px;
+}
+
+
+.text-title {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.main {
+    text-align: center;
+    background: rgba(69, 69, 69, 1);
+    padding: 40px 0 50px 0;
+}
+
+.cards {
+    display: inline-block;
+}
+
+.image-container {
+    margin-bottom: 18px;
+    position: relative;
+}
+
+img {
+    border-radius: 5px;
+    width: 344px;
+}
+
+.description {
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(57, 120, 78, 0.6);
+    width: 344px;
+    height: 68px;
+}
+
+.desc-text {
+    display: flex;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12px 0 12px 0;
+    width: 250px;
+    text-align: left;
+}
+
+.desc-items {
+    display: flex;
+    padding: 12px 10px 32px 0;
+    width: 80px;
+    height: 24px;
+}
+
+
+.foot {
+    background: #000000;
+    padding: 16px 0;
+    text-align: center;
+    height: 48px;
+}
+
+.elements {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media (max-width: 768px) {
+    .head-content {
+        padding: 20px 0 10px 0;
+    }
+
+    .text-title {
+        font-size: 18px;
+    }
+
+    .image-container {
+        margin-bottom: 12px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+        height: auto;
+    }
+
+    .desc-text {
+        font-size: 16px;
+        padding: 12px 0 12px 12px;
+        width: 200%;
+    }
+
+    .desc-items {
+        display: flex;
+        justify-content: flex-end;
+        padding: 12px 10px 32px 0;
+        width: 100%;
+    }
+
+    .foot {
+        text-align: center;
+        height: 60px;
+        padding: 20px 0;
+    }
+}
+
+
+
+
+.main,
+.foot {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 1s ease-in-out;
+}
+
+.main.hidden,
+.foot.hidden {
+    max-height: 0;
+    padding: 0;
+}
+
+.main:not(.hidden) {
+    max-height: 3000px;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.foot:not(.hidden) {
+    max-height: 3000px;
+    transition: max-height 0.5s ease-in-out;
+}
