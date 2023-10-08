@@ -120,8 +120,9 @@ body {
     width: 20px;
     height: 20px;
     margin-left: 270px;
-    
 }
+
+
 .page .photo-slides .abouts .sha-button{
     flex-shrink: 1;
     width: 20px;
@@ -129,4 +130,8 @@ body {
     margin-left: 20px;
 }
 
+
+.abouts img{
+    cursor: pointer;
+}
   
