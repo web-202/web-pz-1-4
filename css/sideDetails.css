@@ -1,0 +1,311 @@
+body {
+    padding: 0;
+    width: 426px;
+    margin: 0px 0px 0px 500px;
+}
+.header {
+    display: flex;
+    height: 70px;
+    width: 425px;
+    background-color: #212121;
+}
+
+.but-img-1 {
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: auto;
+}
+
+
+.back {
+    margin-left: 20px;
+    margin-top: 34px;
+}
+
+.texts {
+    font-style: normal;
+    font-size: 25px;
+    line-height: normal;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #FFF;
+}
+
+.img-more {
+    position: relative;
+    right: -30px;
+    top: 34px
+}
+
+.more {
+    width: 12px;
+    position: absolute;
+    flex-shrink: 0;
+    height: 24px;
+}
+
+.img-1 {
+    height: 1100px;
+    width: 425px;
+    background-color: #303030;
+    position: relative;
+
+}
+
+.image-6 {
+    background-repeat: no-repeat;
+    background-image: url(../img/image-6.png);
+    position: relative;
+    background-size: 100%;
+    height: 325px;
+    width: 425px;
+   
+}
+
+.homes-1 {
+    position: absolute;
+    display: flex;
+    width: 425px;
+    bottom: 0;
+    flex-shrink: 0;
+    height: 57px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../img/image-placeholder1.png);
+
+}
+
+.but-img-1 {
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 15px;
+    width: 100px;
+}
+
+.bbut-img-1 {
+    width: 68px;
+}
+
+.con-text {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px 20px 0px 20px;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.com-cont {
+    padding: 20px 20px 0px 20px;
+}
+
+.header-cont {
+    font-style: normal;
+    font-size: 20px;
+    line-height: normal;
+    font-weight: 500;
+    color: rgba(255, 255, 255);
+}
+
+.comentss {
+    display: flex;
+}
+
+.comentss-1 {
+    padding-top: 30px;
+    display: flex;
+}
+
+.user-img {
+    width: 40px;
+    height: 40px;
+}
+
+.img-coments {
+    width: 320px;
+    padding-left: 20px;
+}
+
+.events {
+    padding: 20px 20px 0px 20px;
+}
+
+.header-events {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.img-events-text {
+    display: flex;
+}
+
+.button-sub {
+    width: 385px;
+    height: 42px;
+    border: 0;
+    background: rgba(57, 120, 78, 1);
+    color: rgb(255, 255, 255);
+}
+
+.but-but {
+    padding: 10px 20px 10px 20px;
+
+}
+
+@media (max-width: 426px) {
+
+    body {
+        margin: 0 ;
+        padding: 0;
+        width: 426px;
+    }
+
+    .header {
+        display: flex;
+        width: 425px;
+        height: 70px;
+        background-color: #212121;
+    }
+
+    .back {
+        margin-top: 34px;
+        margin-left: 20px;
+    }
+
+    .texts {
+        font-size: 25px;
+        font-style: normal;
+        line-height: normal;
+        font-weight: 500;
+        margin-left: 30px;
+        margin-top: 30px;
+        color: #FFF;
+    }
+
+    .img-more {
+        position: relative;
+        right: -30px;
+        top: 34px
+    }
+
+    .more {
+        position: absolute;
+        width: 12px;
+        flex-shrink: 0;
+        height: 24px;
+    }
+
+    .img-1 {
+        position: relative;
+        width: 425px;
+        height: 1100px;
+    }
+
+    .image-6 {
+        width: 425px;
+        height: 325px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url(.../img/image-6.png);
+        position: relative;
+    }
+
+    .homes-1 {
+        display: flex;
+        position: absolute;
+        width: 425px;
+        height: 57px;
+        bottom: 0;
+        flex-shrink: 0;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url(../img/image-placeholder1.png);
+
+    }
+
+    .but-img-1 {
+        border: 0;
+        background-color: rgba(0, 0, 0, 0);
+        margin-top: 15px;
+        width: 100px;
+    }
+
+    .bbut-img-1 {
+        width: 68px;
+    }
+
+    .con-text {
+        font-size: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: 0px 20px 0px 20px;
+        color: rgba(255, 255, 255, 0.7);
+        line-height: normal;
+    }
+
+    .com-cont {
+        padding: 20px 20px 0px 20px;
+    }
+
+    .header-contt {
+        font-style: normal;
+        font-size: 20px;
+        line-height: normal;
+        font-weight: 500;
+        color: rgba(255, 255, 255);
+    }
+
+    .comentss {
+        display: flex;
+    }
+
+    .comentss-1 {
+        padding-top: 30px;
+        display: flex;
+    }
+
+    .user-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .img-coments {
+        width: 320px;
+        padding-left: 20px;
+    }
+
+    .events {
+        padding: 20px 20px 0px 20px;
+    }
+
+    .header-events {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+    }
+
+    .img-events-text {
+        display: flex;
+    }
+
+    .button-sub {
+        height: 42px;
+        width: 385px;
+        border: 0;
+        background: rgba(57, 120, 78, 1);
+        color: rgb(255, 255, 255);
+    }
+
+    .but-but {
+        padding: 10px 20px 10px 20px;
+
+    }
+}

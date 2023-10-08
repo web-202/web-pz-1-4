@@ -1,0 +1,174 @@
+body {
+    padding: 0;
+    width: 426px;
+    margin: 0px 0px 0px 500px;
+    border: 2px solid black;
+}
+
+.close {
+    width: 60px;
+    height: 100vh;
+    margin-left: auto;
+    background-color: rgba(48, 48, 48, 1);
+}
+
+.braw {
+    margin-bottom: 30px;
+    width: 455px;
+}
+
+.patterns {
+    height: 200px;
+    width: 100%;
+    background: rgb(80, 204, 127);
+    background: linear-gradient(90deg, rgba(80, 204, 127, 1) 0%, rgb(1, 104, 136) 100%);
+
+}
+
+.hild {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/patterns.png);
+    position: relative;
+}
+
+.user {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.user-name {
+    width: 300px;
+    top: 69%;
+    left: 50%;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    letter-spacing: 0em;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.switchs {
+    width: 100%;
+}
+
+.vector {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    margin-top: 13px;
+}
+
+.switchs-div{
+    margin-left: 20px;
+    display: flex; 
+}
+
+.vector-text {
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.close-img{
+    margin-top: 30px;
+    margin-left: 15px; 
+}
+
+@media (max-width: 426px) {
+
+    body {
+        width: 426px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .close {
+        width: 60px;
+        height: 100vh;
+        margin-left: auto;
+        background-color: rgba(48, 48, 48, 1);
+    }
+
+    .braw {
+        
+        width: 455px;
+        margin-bottom: 30px;
+    }
+
+    .patterns {
+        width: 100%;
+        height: 200px;
+        background: rgb(80, 204, 127);
+        background: linear-gradient(90deg, rgba(80, 204, 127, 1) 0%, rgb(1, 104, 136) 100%);
+
+    }
+
+    .hild {
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/patterns.png);
+        position: relative;
+    }
+
+    .user {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+    }
+
+    .user-name {
+        width: 300px;
+        top: 69%;
+        left: 50%;
+        position: absolute;
+        font-family: 'Times New Roman', Times, serif;
+        transform: translate(-50%, -50%);
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0em;
+        line-height: 24px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .switchs {
+        width: 100%;
+    }
+
+    .switchs-div{
+        margin-left: 20px;
+        display: flex; 
+    }
+    
+    .vector {
+        width: 20px;
+        height: 20px;
+        margin-top: 13px;
+        margin-right: 20px;
+    }
+
+    .vector-text {
+        font-weight: 600;
+        line-height: 24px;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 18px;
+        font-style: normal;
+        color: rgba(0, 0, 0, 0.87);
+    }
+
+    .close-img{
+        margin-top: 30px;
+        margin-left: 15px; 
+    }
+}
