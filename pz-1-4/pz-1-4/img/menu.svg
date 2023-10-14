@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/web-pz-1-4/pz-1-4/css/main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-blocks">
+      <img class="header-img" src="your-svg-image.svg" alt="Menu">
+      <p class="header-title">Популярні тури</p>
+    </div>
+  </header>
+</body>
+
+</html>
