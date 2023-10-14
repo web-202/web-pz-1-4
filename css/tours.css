@@ -37,7 +37,7 @@ body {
 
 .main {
     text-align: center;
-    background: rgba(69, 69, 69, 1);
+    background: rgb(204, 191, 191);
     padding: 40px 0 50px 0;
 }
 
@@ -52,7 +52,7 @@ body {
 
 .cards__image-container img {
     border-radius: 5px;
-    width: 344px;
+    width:980px;
 }
 
 .cards__description {
@@ -62,7 +62,7 @@ body {
     bottom: 0;
     left: 0;
     background-color: rgba(57, 120, 78, 0.6);
-    width: 344px;
+    width: 980px;
     height: 68px;
 }
 
@@ -108,7 +108,7 @@ body {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 980px) {
     .head__content {
         padding: 20px 0 10px 0;
     }

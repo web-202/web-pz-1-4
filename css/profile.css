@@ -29,9 +29,6 @@ a {
     padding-right: 5px;
 }
 
-.menu:hover {
-    background-color: #fff;
-}
 
 .head-elements {
     padding: 48px;
@@ -52,20 +49,14 @@ a {
 
 .main-content {
     background-color: #f2f2f2ed;
-    display: flex;
-    flex-direction: column;
     padding: 0 0 43px 550px;
-    transition: margin-right 0.3s ease-in-out;
 }
 
 .main-content.active {
     margin-right: 360px;
 }
 
-.main-content__list-container {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .main-content__list {
     display: flex;
@@ -84,6 +75,7 @@ a {
     line-height: 24px;
 }
 
+
 .foot {
     background: #000000;
     padding: 16px 0;
@@ -97,7 +89,7 @@ a {
 
 .foot__elements {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;  
 }
 
 .aside-menu {
@@ -116,7 +108,7 @@ a {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 980px) {
     .head-elements {
         padding: 16px;
     }
