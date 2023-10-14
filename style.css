@@ -1,0 +1,686 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+}
+body section{
+  background: #000;
+}
+.menu {
+    text-align: center;
+    list-style: none;
+    display: none;
+    width: 400px;
+    height: 500px;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    top: 50px;
+    margin-left: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.menu li{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.btn-close{
+    background: #000;
+    border: none;
+    display: flex;
+}
+.lis{
+display: flex;
+
+
+margin: 20px 15px;
+}
+.lis svg{
+    margin: 0px 15px;
+}
+/* Стили для кнопки открытия меню */
+.open-menu-button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: auto;
+}
+.header{
+    width: 100%;
+    position: relative;
+}
+.menu_header{
+    width: 40%;
+    justify-content: center;
+    margin: 0 auto;
+    background: #000;
+    display: flex;
+}
+.menu_text{
+    color: whitesmoke;
+    margin-right: auto;
+    background: #000;
+}
+.section{
+    width: 40%;
+    height: 95vh;
+    justify-content: center;
+    margin: 0 auto;
+    background:rgba(32, 32, 32);
+}
+.cart{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    background: #000;
+text-align: center;
+}
+.cart img{
+    width: 95%;
+    border-radius: 6px;
+    margin-top: 5px;
+
+}
+.placeholder{
+    
+    margin-top: -40px;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    background: #08b14199;
+    font-size: 16px;
+    color: whitesmoke;
+
+    display: flex;
+}
+.placeholder svg{
+margin-top: -25px;
+margin: 0 auto;
+
+}
+.section-btn{
+    width: 50%;
+    margin: 0 auto;
+    background: #000;
+    margin-top: 40px;
+    justify-content: center;
+}
+.bar{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+    list-style: none;
+}
+.bar img{
+    width: 40px;
+    margin: 0px 15px;
+    
+}
+.ser{
+    background:rgba(32, 32, 32);
+}
+.placeholder__black{
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 16px;
+    width: 95%;
+    
+    background:rgba(32, 32, 32, 0.70);
+    font-size: 16px;
+    color: whitesmoke;
+    
+    display: flex;
+}
+.placeholder__black svg{
+    margin-left: auto;
+}
+.text-sec h1{
+   padding: 10px;
+color: rgba(233, 233, 233, 0.7);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+text-align: center;
+}
+.vid{
+    color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+
+margin: 0px 20px;
+}
+.vid h1{
+    text-align: start;
+  padding-top: 20px;
+}
+.vid{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.ht{
+    width: 100%;
+    background:rgba(32, 32, 32);
+   
+}
+.seg{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} 
+.seg h1 {
+  text-align: left;
+}
+.seg h2 {
+  text-align: left;
+}
+.ht{
+    width: 100%;
+    margin: 0px auto;
+}
+.ht button{
+  text-align: center;
+  justify-content: center;
+  margin: 0px auto;
+}
+.ht h1{
+ margin: 0px 20px;
+ color: #FFF;
+font-family: Roboto;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 133.333% */
+}
+.ht h2{
+ color: #6FB285;
+font-family: Roboto;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+margin: 0px 20px;
+line-height: 24px; /* 150% */
+}
+
+
+.btn-ser{
+    padding: 15px;
+    background: #39784E;
+    width: 50%;
+    border: none;
+   margin-top: 40px;
+    
+}
+
+/* Ваши стили здесь */
+
+/* Стили для бургер-меню */
+.header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    margin: 0;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+}
+
+.bar {
+    background-color: white;
+    height: 3px;
+    width: 24px;
+    margin: 2px 0;
+    transition: transform 0.2s;
+}
+
+.class-menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    overflow-y: auto;
+    transition: left 0.3s ease-in-out;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+.name{
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+li{
+    color: whitesmoke;
+    list-style-type: none;
+}
+.close {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+}
+
+.img_close img {
+    width: 24px;
+    height: 24px;
+}
+body {
+    display: flex;
+  }
+  
+  .browse {
+    background-color: #303030;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .header_1 {
+    background-color: #212121;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    display: flex;
+    height: 75px;
+  }
+  
+  .menu_text {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .menu_img {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .news_setting {
+    margin-top: 30px;
+    background-size: cover;
+    height: 270px;
+    width: 475px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    padding-bottom:50px;
+  }
+  
+  
+  .news_1 {
+    background-image: url("/web-pz-1-4/img/img_news_1.png");
+  }
+  
+  .news_2 {
+    background-image: url("/web-pz-1-4/img/img_news_2.png");
+  }
+  
+  .news_3 {
+    background-image: url("/web-pz-1-4/img/img_news_3.png");
+  }
+  
+  .news_4 {
+    background-image: url("/web-pz-1-4/img/img_news_4.png");
+  }
+  
+  .news_5 {
+    background-image: url("/web-pz-1-4/img/img_news_5.png");
+    margin-bottom: 30px;
+  }
+  
+  .elements_1 {
+    position: absolute;
+    bottom: 0;
+    background: rgba(57, 120, 78, 0.60);
+    width: 475px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .text {
+    color: aliceblue;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  
+  .btn {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  
+  .side_menu {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.3s;
+  }
+  
+  .side_menu.opened {
+    display: block;
+    position: relative;
+    width: auto;
+  }
+  
+  #closeMenuBtn {
+    cursor: pointer;
+  }
+  /* 
+  .page.opened {
+    margin-left: 250px;
+  } */
+  
+  .front {
+    display: flex;
+  }
+  
+  .img_close {
+  width: 24px;
+  height: 24px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .user_info {
+    background-image: url(/web-pz-1-4/img/pixel_background.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    font-size: 23px;
+    color: aliceblue;
+  }
+  
+  .page_user {
+    width: 440px;
+  }
+  
+  .close {
+    background-color: #303030;
+    width: 60px;
+  }
+  
+  .images {
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    align-items: end;
+    gap: 39px;
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+  
+  .btn_panel {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+  }
+  
+  .text_block {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+  }
+  
+  
+  .details_page_1 {
+    width: 450px;
+    background-color: #303030;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .back_btn {
+    background-color: #212121;
+    background-image: url(/web-pz-1-4/img/back\ копія.svg);
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    width: 22px;
+    background-position: center;
+    margin-left: 13px;
+  }
+  
+  .details_header {
+    background-color: #212121;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .details_header img {
+    margin-left: 15px;
+    margin-right: 23px;
+  }
+  
+  .preview_img {
+    background-image: url(/web-pz-1-4/img/img_news_1.png);
+    background-size: cover;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: flex-end;
+  }
+  
+  .elements_2 {
+    background: rgba(32, 32, 32, 0.70);
+    width: 450px;
+    height: 50px;
+  }
+  
+  .btn_1 {
+    margin-right: 20px;
+    display: flex;
+    justify-content: end;
+    margin-top: 12px;
+  }
+  
+  .preview_text {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  
+  .text_feed {
+    color: aliceblue;
+    font-size: 22px;
+    margin-left: 22px;
+  
+  }
+  
+  .feed_1 {
+    display: flex;
+  }
+  
+  .feed_1_img {
+    margin-left: 18px;
+  }
+  
+  .feed_1_text {
+    color: rgba(255, 255, 255, 0.70);;
+    background-color: #757575;
+    border-radius: 0px 20px 20px 20px;
+    margin-right: 18px;
+    margin-left: 10px;
+    padding: 0px 15px;
+    margin-bottom: 15px;
+  }
+  
+  .text_1 {
+    margin-left: 10px;
+  }
+  
+  .event {
+    color: #6FB285;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    font-size: 17px;
+  }
+  
+  .reserve_btn {
+    color: aliceblue;
+    font-size: 14px;
+    background-color: #39784E;
+    height: 42px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  .reserve_btn p {
+    margin: 0;
+  }
+  /* Стили для бургер-меню */
+
+.burger-menu {
+    position: relative;
+}
+
+.burger-toggle {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    padding: 5px 0;
+}
+
+.bar {
+    background-color: #333;
+    height: 3px;
+    width: 24px;
+    margin: 2px 0;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    overflow-y: auto;
+    transition: right 0.3s ease-in-out;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.close {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img_close img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Открытие бургер-меню */
+
+.burger-menu.opened .bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.burger-menu.opened .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.opened .bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+.burger-menu.opened + .side-menu {
+    right: 0;
+}
+
