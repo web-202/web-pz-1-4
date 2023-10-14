@@ -131,6 +131,11 @@ header {
   width: 2rem;
   height: 2rem;
 }
+
+.profile-icon{
+  margin-left: 600px;
+}
+
 .card {
   position: relative;
   margin-bottom: 1rem;

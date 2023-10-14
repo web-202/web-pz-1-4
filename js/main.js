@@ -8,3 +8,6 @@ function openCloseNavMenu() {
   const headerTag = document.getElementById('header')
   headerTag.style.display = navMenuDiv.style.display === 'none' ? 'block' : 'none'
 }
+function openProfileMenu(){
+  
+}
