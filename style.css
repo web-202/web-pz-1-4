@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 *{
     padding: 0;
     margin: 0;
@@ -218,6 +219,8 @@ line-height: 24px; /* 150% */
     
 }
 =======
+=======
+>>>>>>> 56cc46dcca0351d53dacf23ffe746778f4b471c7
 /* Ваши стили здесь */
 
 /* Стили для бургер-меню */
@@ -683,4 +686,7 @@ body {
 .burger-menu.opened + .side-menu {
     right: 0;
 }
+<<<<<<< HEAD
+>>>>>>> 56cc46dcca0351d53dacf23ffe746778f4b471c7
+=======
 >>>>>>> 56cc46dcca0351d53dacf23ffe746778f4b471c7
