@@ -4,11 +4,11 @@ body {
     padding: 0;
     background-color: #f0f0f0;
 }
-header{
-    width: 50%;
+.header{
+    width: 100%;
     justify-content: center;
     margin: 0 auto;
-    background: #000;
+    background: green;
 }
 .popular{
     color: whitesmoke;
@@ -27,6 +27,10 @@ display: flex;
 .burger-icon {
 display: flex;
 margin: 0 15px;
+}
+
+.buttons{
+    margin-left: 950px;
 }
 
 .bar {
@@ -130,4 +134,55 @@ margin: 0 15px;
     width: 100%; /* Ширина изображения 100% блока */
     height: auto; /* Автоматическая высота, чтобы сохранить пропорции изображения */
     display: block; /* Убирает пустые области внутри блока */
+}
+.card .title {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(16, 14, 14, 0.6)
+  }
+.card {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.card .title {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(57, 120, 78, 0.6)
+}
+
+.card > img {
+  border-radius: 5px;
+  width: 100%;
+}
+.card .buttons > img {
+  width: 1rem;
+  height: auto;
+}
+.feedbacks {
+  margin-top: 2rem;
+}
+
+.feedback {
+  padding: 1rem 0;
+  display: flex;
+}
+
+.feedback .profile {
+  margin-right: 0.5rem;
+}
+
+.feedback .content {
+  margin-left: 0.5rem;
+  background-color: rgba(162, 151, 151, 0.75);
+  padding: 1rem;
+  border-radius: 0 3rem 3rem 3rem;
 }
