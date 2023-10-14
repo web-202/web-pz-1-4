@@ -4,25 +4,25 @@ body {
     width: 426px;
 }
 
-.but_image_placeholter_1 {
+.dykyi-but_image_placeholter_1 {
     background-color: rgba(0, 0, 0, 0);
     border: 0;
     margin-left: auto;
 }
 
-.header {
+.dykyi-header {
     display: flex;
     background-color: #212121;
     height: 70px;
     width: 425px;
 }
 
-.back {
+.dykyi-back {
     margin-top: 34px;
     margin-left: 20px;
 }
 
-.headText {
+.dykyi-headText {
     font-size: 25px;
     font-style: normal;
     font-weight: 500;
@@ -32,20 +32,20 @@ body {
     margin-left: 30px;
 }
 
-.img_more {
+.dykyi-img_more {
     position: relative;
     right: -30px;
     top: 34px
 }
 
-.more {
+.dykyi-more {
     position: absolute;
     width: 12px;
     height: 24px;
     flex-shrink: 0;
 }
 
-.image_placeholter_1 {
+.dykyi-image_placeholter_1 {
     width: 425px;
     height: 1100px;
     position: relative;
@@ -53,7 +53,7 @@ body {
 
 }
 
-.image-6 {
+.dykyi-image-6 {
     width: 425px;
     height: 325px;
     background-image: url(../css/images/image-6.png);
@@ -62,7 +62,7 @@ body {
     position: relative;
 }
 
-.homes_1 {
+.dykyi-homes_1 {
     display: flex;
     position: absolute;
     bottom: 0;
@@ -75,18 +75,18 @@ body {
 
 }
 
-.but_image_placeholter_1 {
+.dykyi-but_image_placeholter_1 {
     background-color: rgba(0, 0, 0, 0);
     border: 0;
     width: 100px;
     margin-top: 15px;
 }
 
-.img_image_placeholter_2 {
+.dykyi-img_image_placeholter_2 {
     width: 68px;
 }
 
-.content-text {
+.dykyi-content-text {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
     font-style: normal;
@@ -96,11 +96,11 @@ body {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.coments-content {
+.dykyi-coments-content {
     padding: 20px 20px 0px 20px;
 }
 
-.header-text-content {
+.dykyi-header-text-content {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -109,30 +109,30 @@ body {
     color: rgba(255, 255, 255);
 }
 
-.coments {
+.dykyi-coments {
     display: flex;
 }
 
-.coments-1 {
+.dykyi-coments-1 {
     padding-top: 30px;
     display: flex;
 }
 
-.avatar-img {
+.dykyi-avatar-img {
     width: 40px;
     height: 40px;
 }
 
-.img-text-comment {
+.dykyi-img-text-comment {
     padding-left: 20px;
     width: 320px;
 }
 
-.next-event {
+.dykyi-next-event {
     padding: 20px 20px 0px 20px;
 }
 
-.header-next-event {
+.dykyi-header-next-event {
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-style: normal;
@@ -140,11 +140,11 @@ body {
     line-height: 24px;
 }
 
-.img-event-text {
+.dykyi-img-event-text {
     display: flex;
 }
 
-.button-submit {
+.dykyi-button-submit {
     height: 42px;
     width: 385px;
     color: rgb(255, 255, 255);
@@ -152,7 +152,7 @@ body {
     border: 0;
 }
 
-.but-q {
+.dykyi-but-q {
     padding: 10px 20px 10px 20px;
 
 }
@@ -165,19 +165,19 @@ body {
         width: 426px;
     }
 
-    .header {
+    .dykyi-header {
         display: flex;
         background-color: #212121;
         height: 70px;
         width: 425px;
     }
 
-    .back {
+    .dykyi-back {
         margin-top: 34px;
         margin-left: 20px;
     }
 
-    .headText {
+    .dykyi-headText {
         font-size: 25px;
         font-style: normal;
         font-weight: 500;
@@ -187,26 +187,26 @@ body {
         margin-left: 30px;
     }
 
-    .img_more {
+    .dykyi-img_more {
         position: relative;
         right: -30px;
         top: 34px
     }
 
-    .more {
+    .dykyi-more {
         position: absolute;
         width: 12px;
         height: 24px;
         flex-shrink: 0;
     }
 
-    .image_placeholter_1 {
+    .dykyi-image_placeholter_1 {
         width: 425px;
         height: 1100px;
         position: relative;
     }
 
-    .image-6 {
+    .dykyi-image-6 {
         width: 425px;
         height: 325px;
         background-image: url(../css/images/image-6.png);
@@ -215,7 +215,7 @@ body {
         position: relative;
     }
 
-    .homes_1 {
+    .dykyi-homes_1 {
         display: flex;
         position: absolute;
         bottom: 0;
@@ -228,18 +228,18 @@ body {
 
     }
 
-    .but_image_placeholter_1 {
+    .dykyi-but_image_placeholter_1 {
         background-color: rgba(0, 0, 0, 0);
         border: 0;
         width: 100px;
         margin-top: 15px;
     }
 
-    .img_image_placeholter_2 {
+    .dykyi-img_image_placeholter_2 {
         width: 68px;
     }
 
-    .content-text {
+    .dykyi-content-text {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 15px;
         font-style: normal;
@@ -249,11 +249,11 @@ body {
         color: rgba(255, 255, 255, 0.7);
     }
 
-    .coments-content {
+    .dykyi-coments-content {
         padding: 20px 20px 0px 20px;
     }
 
-    .header-text-content {
+    .dykyi-header-text-content {
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
@@ -262,30 +262,30 @@ body {
         color: rgba(255, 255, 255);
     }
 
-    .coments {
+    .dykyi-coments {
         display: flex;
     }
 
-    .coments-1 {
+    .dykyi-coments-1 {
         padding-top: 30px;
         display: flex;
     }
 
-    .avatar-img {
+    .dykyi-avatar-img {
         width: 40px;
         height: 40px;
     }
 
-    .img-text-comment {
+    .dykyi-img-text-comment {
         padding-left: 20px;
         width: 320px;
     }
 
-    .next-event {
+    .dykyi-next-event {
         padding: 20px 20px 0px 20px;
     }
 
-    .header-next-event {
+    .dykyi-header-next-event {
         color: rgb(255, 255, 255);
         font-size: 18px;
         font-style: normal;
@@ -293,11 +293,11 @@ body {
         line-height: 24px;
     }
 
-    .img-event-text {
+    .dykyi-img-event-text {
         display: flex;
     }
 
-    .button-submit {
+    .dykyi-button-submit {
         height: 42px;
         width: 385px;
         color: rgb(255, 255, 255);
@@ -305,7 +305,7 @@ body {
         border: 0;
     }
 
-    .but-q {
+    .dykyi-but-q {
         padding: 10px 20px 10px 20px;
 
     }

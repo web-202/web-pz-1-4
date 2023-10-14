@@ -3,14 +3,14 @@ body {
     margin: 0px 0px 0px 400px;
 }
 
-.app_bar {
+.dykyi-app_bar {
     display: flex;
     height: 100px;
     width: 680px;
     background-color: #212121;
 }
 
-.app_bar_img {
+.dykyi-app_bar_img {
     margin-top: 40px;
     margin-left: 200px;
     color: #FFF;
@@ -21,7 +21,7 @@ body {
     line-height: normal;
 }
 
-.app_img {
+.dykyi-app_img {
     margin-top: 35px;
     margin-left: 26px;
     width: 34px;
@@ -29,7 +29,7 @@ body {
     flex-shrink: 0;
 }
 
-.image_placeholter_1 {
+.dykyi-image_placeholter_1 {
     height: 2600px;
     width: 640px;
     position: relative;
@@ -38,7 +38,7 @@ body {
 
 }
 
-.image_placeholter_2 {
+.dykyi-image_placeholter_2 {
     width: 640px;
     height: 491px;
     background-image: url(..//css/images/image-6.png);
@@ -47,7 +47,7 @@ body {
     position: relative;
 }
 
-.homes_1 {
+.dykyi-homes_1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,19 +66,19 @@ body {
     line-height: normal;
 }
 
-.but_image_placeholter_1 {
+.dykyi-but_image_placeholter_1 {
     background-color: rgba(0, 0, 0, 0);
     border: 0;
     width: 140px;
 }
 
-.img_image_placeholter_2 {
+.dykyi-img_image_placeholter_2 {
     width: 108px;
 }
 
 
 
-.image_placeholter_3 {
+.dykyi-image_placeholter_3 {
     width: 640px;
     height: 491px;
     background-image: url(..//css/images/image-5.png);
@@ -88,7 +88,7 @@ body {
     margin-top: 30px;
 }
 
-.homes_2 {
+.dykyi-homes_2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -107,20 +107,20 @@ body {
     line-height: normal;
 }
 
-.but_image_placeholter_2 {
+.dykyi-but_image_placeholter_2 {
     background-color: rgba(0, 0, 0, 0);
     border: 0;
     width: 140px;
 }
 
-.img_image_placeholter_3 {
+.dykyi-img_image_placeholter_3 {
     width: 108px;
 }
 
 
 
 
-.image_placeholter_4 {
+.dykyi-image_placeholter_4 {
     width: 640px;
     height: 491px;
     background-image: url(..//css/images/image-8.png);
@@ -130,7 +130,7 @@ body {
     margin-top: 30px;
 }
 
-.homes_3 {
+.dykyi-homes_3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -149,18 +149,18 @@ body {
     line-height: normal;
 }
 
-.but_image_placeholter_3 {
+.dykyi-but_image_placeholter_3 {
     background-color: rgba(0, 0, 0, 0);
     border: 0;
     width: 140px;
 }
 
-.img_image_placeholter_4 {
+.dykyi-img_image_placeholter_4 {
     width: 108px;
 }
 
 
-.image_placeholter_5 {
+.dykyi-image_placeholter_5 {
     width: 640px;
     height: 491px;
     background-image: url(..//css/images/image-9.png);
@@ -170,7 +170,7 @@ body {
     margin-top: 30px;
 }
 
-.homes_4 {
+.dykyi-homes_4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -189,18 +189,18 @@ body {
     line-height: normal;
 }
 
-.but_image_placeholter_4 {
+.dykyi-but_image_placeholter_4 {
     background-color: rgba(0, 0, 0, 0);
     border: 0;
     width: 140px;
 }
 
-.img_image_placeholter_5 {
+.dykyi-img_image_placeholter_5 {
     width: 108px;
 }
 
 
-.image_placeholter_6 {
+.dykyi-image_placeholter_6 {
     width: 640px;
     height: 491px;
     background-image: url(..//css/images/image-10.png);
@@ -210,7 +210,7 @@ body {
     margin-top: 30px;
 }
 
-.homes_5 {
+.dykyi-homes_5 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -229,13 +229,13 @@ body {
     line-height: normal;
 }
 
-.but_image_placeholter_5 {
+.dykyi-but_image_placeholter_5 {
     background-color: rgba(0, 0, 0, 0);
     border: 0;
     width: 140px;
 }
 
-.img_image_placeholter_6 {
+.dykyi-img_image_placeholter_6 {
     width: 108px;
 }
 
@@ -246,14 +246,14 @@ body {
         margin: 0;
     }
 
-    .app_bar {
+    .dykyi-app_bar {
         display: flex;
         height: 80px;
         width: 359px;
         background-color: #212121;
     }
 
-    .app_img {
+    .dykyi-app_img {
         margin-top: 40px;
         margin-left: 16px;
         width: 24px;
@@ -261,7 +261,7 @@ body {
         flex-shrink: 0;
     }
 
-    .app_bar_img {
+    .dykyi-app_bar_img {
         margin-top: 40px;
         margin-left: 72px;
         color: #FFF;
@@ -272,14 +272,14 @@ body {
         line-height: normal;
     }
 
-    .image_placeholter_1 {
+    .dykyi-image_placeholter_1 {
         height: 1600px;
         width: 319px;
         position: relative;
         padding: 50px 20px 0px 20px;
     }
 
-    .image_placeholter_2 {
+    .dykyi-image_placeholter_2 {
         width: 319px;
         height: 250px;
         background-image: url(..//css/images/image-6.png);
@@ -288,7 +288,7 @@ body {
         position: relative;
     }
 
-    .image_placeholter_3 {
+    .dykyi-image_placeholter_3 {
         width: 100%;
         height: 250px;
         background-image: url(../css/images/image-5.png);
@@ -304,14 +304,14 @@ body {
         margin: 0;
     }
 
-    .app_bar {
+    .dykyi-app_bar {
         display: flex;
         height: 100px;
         width: 680px;
         background-color: #212121;
     }
 
-    .app_bar_img {
+    .dykyi-app_bar_img {
         margin-top: 40px;
         margin-left: 200px;
         color: #FFF;
@@ -322,7 +322,7 @@ body {
         line-height: normal;
     }
 
-    .app_img {
+    .dykyi-app_img {
         margin-top: 35px;
         margin-left: 26px;
         width: 34px;
@@ -330,14 +330,14 @@ body {
         flex-shrink: 0;
     }
 
-    .image_placeholter_1 {
+    .dykyi-image_placeholter_1 {
         height: 2600px;
         width: 640px;
         position: relative;
         padding: 50px 20px 0px 20px;
     }
 
-    .image_placeholter_2 {
+    .dykyi-image_placeholter_2 {
         width: 640px;
         height: 491px;
         background-image: url(..//css/images//image-6.png);
@@ -346,7 +346,7 @@ body {
         position: relative;
     }
 
-    .homes_1 {
+    .dykyi-homes_1 {
         display: flex;
         position: absolute;
         bottom: 0;
@@ -363,19 +363,19 @@ body {
         line-height: normal;
     }
 
-    .but_image_placeholter_1 {
+    .dykyi-but_image_placeholter_1 {
         background-color: rgba(0, 0, 0, 0);
         border: 0;
         width: 140px;
     }
 
-    .img_image_placeholter_2 {
+    .dykyi-img_image_placeholter_2 {
         width: 108px;
     }
 
 
 
-    .image_placeholter_3 {
+    .dykyi-image_placeholter_3 {
         width: 640px;
         height: 491px;
         background-image: url(../css/images/image-5.png);
@@ -385,7 +385,7 @@ body {
         margin-top: 30px;
     }
 
-    .homes_2 {
+    .dykyi-homes_2 {
         display: flex;
         position: absolute;
         bottom: 0;
@@ -402,20 +402,20 @@ body {
         line-height: normal;
     }
 
-    .but_image_placeholter_2 {
+    .dykyi-but_image_placeholter_2 {
         background-color: rgba(0, 0, 0, 0);
         border: 0;
         width: 140px;
     }
 
-    .img_image_placeholter_3 {
+    .dykyi-img_image_placeholter_3 {
         width: 108px;
     }
 
 
 
 
-    .image_placeholter_4 {
+    .dykyi-image_placeholter_4 {
         width: 640px;
         height: 491px;
         background-image: url(../css/images/image-8.png);
@@ -425,7 +425,7 @@ body {
         margin-top: 30px;
     }
 
-    .homes_3 {
+    .dykyi-homes_3 {
         display: flex;
         position: absolute;
         bottom: 0;
@@ -442,18 +442,18 @@ body {
         line-height: normal;
     }
 
-    .but_image_placeholter_3 {
+    .dykyi-but_image_placeholter_3 {
         background-color: rgba(0, 0, 0, 0);
         border: 0;
         width: 140px;
     }
 
-    .img_image_placeholter_4 {
+    .dykyi-img_image_placeholter_4 {
         width: 108px;
     }
 
 
-    .image_placeholter_5 {
+    .dykyi-image_placeholter_5 {
         width: 640px;
         height: 491px;
         background-image: url(../css/images/image-9.png);
@@ -463,7 +463,7 @@ body {
         margin-top: 30px;
     }
 
-    .homes_4 {
+    .dykyi-homes_4 {
         display: flex;
         position: absolute;
         bottom: 0;
@@ -480,18 +480,18 @@ body {
         line-height: normal;
     }
 
-    .but_image_placeholter_4 {
+    .dykyi-but_image_placeholter_4 {
         background-color: rgba(0, 0, 0, 0);
         border: 0;
         width: 140px;
     }
 
-    .img_image_placeholter_5 {
+    .dykyi-img_image_placeholter_5 {
         width: 108px;
     }
 
 
-    .image_placeholter_6 {
+    .dykyi-image_placeholter_6 {
         width: 640px;
         height: 491px;
         background-image: url(../css/images/image-10.png);
@@ -501,7 +501,7 @@ body {
         margin-top: 30px;
     }
 
-    .homes_5 {
+    .dykyi-homes_5 {
         display: flex;
         position: absolute;
         bottom: 0;
@@ -518,13 +518,13 @@ body {
         line-height: normal;
     }
 
-    .but_image_placeholter_5 {
+    .dykyi-but_image_placeholter_5 {
         background-color: rgba(0, 0, 0, 0);
         border: 0;
         width: 140px;
     }
 
-    .img_image_placeholter_6 {
+    .dykyi-img_image_placeholter_6 {
         width: 108px;
     }
 }
