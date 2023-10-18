@@ -1,6 +1,11 @@
 body{
     background: rgb(0, 0, 0);
   }
+
+
+  .info{
+    color: #000000;
+  }
   
   .header {
     display: flex;
@@ -49,6 +54,7 @@ body{
   
   .feedbacks {
     margin-top: 2rem;
+    color: #000000;
   }
   
   .feedback {
@@ -62,7 +68,7 @@ body{
   
   .feedback .content {
     margin-left: 0.5rem;
-    background-color: rgba(162, 151, 151, 0.75);
+    background-color: rgba(110, 99, 99, 0.75);
     padding: 1rem;
     border-radius: 0 3rem 3rem 3rem;
   }
@@ -73,6 +79,7 @@ body{
   
   .additional-info {
     margin-top: 2rem;
+    color:#000000;
   }
   
   td {
@@ -134,7 +141,7 @@ body{
   }
   
   a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
   }
   
