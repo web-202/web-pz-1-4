@@ -1,14 +1,16 @@
-function toggleSidebar() {
-    const sidebar = document.getElementById('sidebar');
-    const body = document.body;
+document.addEventListener('DOMContentLoaded', function () {
+    const burgerIcon = document.getElementById('burgerIcon');
+    const menu = document.getElementById('menu');
+    const closeButton = document.getElementById('closeButton');
 
-    sidebar.classList.toggle('active');
-    body.classList.toggle('active-sidebar');
-}
-function toggleSidebar() {
-    const sidebar = document.getElementById('sidebar');
-    const body = document.body;
+    burgerIcon.addEventListener('click', toggleMenu);
+    closeButton.addEventListener('click', toggleMenu);
 
-    sidebar.classList.toggle('active');
-    body.classList.toggle('active-sidebar');
-}
+    function toggleMenu() {
+        if (menu.style.display === 'block') {
+            menu.style.display = 'none';
+        } else {
+            menu.style.display = 'block';
+        }
+    }
+});
